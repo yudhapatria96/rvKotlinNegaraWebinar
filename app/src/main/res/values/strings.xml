@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+
+    <string-array name="nama_negara">
+        <item>Indonesia</item>
+        <item>Amerika</item>
+        <item>India</item>
+        <item>Jepang</item>
+        <item>Palestina</item>
+        <item>Singapura</item>
+
+    </string-array>
+
+    <array name="negara_image">
+        <item>@drawable/indonesia</item>
+        <item>@drawable/amerika</item>
+        <item>@drawable/india</item>
+        <item>@drawable/jepang</item>
+        <item>@drawable/palestina</item>
+        <item>@drawable/singapura</item>
+
+    </array>
+</resources>
