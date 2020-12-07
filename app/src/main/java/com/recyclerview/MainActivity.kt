@@ -27,10 +27,12 @@ class MainActivity : AppCompatActivity() {
     private fun initData(){
         val name = resources.getStringArray(R.array.nama_negara)
         val image = resources.obtainTypedArray(R.array.negara_image)
+        val wiki = resources.getStringArray(R.array.wiki_negara)
         items.clear()
         for (i in name.indices) {
             items.add(NegaraModel(name[i],
-                    image.getResourceId(i, 0)))
+                    image.getResourceId(i, 0),
+                    wiki[i]))
         }
 
         //Recycle the typed array

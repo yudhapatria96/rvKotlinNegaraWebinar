@@ -20,4 +20,14 @@
         <item>@drawable/singapura</item>
 
     </array>
+
+    <string-array name="wiki_negara">
+        <item>https://en.wikipedia.org/wiki/Indonesia</item>
+        <item>https://en.wikipedia.org/wiki/Amerika</item>
+        <item>https://en.wikipedia.org/wiki/India</item>
+        <item>https://en.wikipedia.org/wiki/Names_of_Japan</item>
+        <item>https://en.wikipedia.org/wiki/Palestina</item>
+        <item>https://en.wikipedia.org/wiki/Singapore</item>
+    </string-array>
 </resources>
+
