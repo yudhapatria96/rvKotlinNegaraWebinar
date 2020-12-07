@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 
@@ -41,6 +42,6 @@ class NegaraAdapter (private val context: Context, private val items: List<Negar
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val name = view.findViewById<TextView>(R.id.name)
         val image = view.findViewById<ImageView>(R.id.image)
-        val container = view.findViewById<LinearLayout>(R.id.llContainer)
+        val container = view.findViewById<CardView>(R.id.cvContainer)
     }
 }
